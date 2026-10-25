@@ -1,0 +1,57 @@
+
+body {
+  background-color: rgb(90, 87, 87);
+  margin: 0;
+  padding: 40px 20px;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: rgb(66, 63, 63);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family:"Indie Flower" ;
+}
+
+#search-form {
+  display: flex;
+  gap: 20px;
+}
+
+#word-input {
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #8f93a0;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#results {
+  margin-top: 24px;
+}
+
+#word {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+#error-message {
+  color: red;
+}

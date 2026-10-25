@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPA</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+  <main class="app">
+    <h1>DICTIONARY.</h1>
+
+    <form id="search-form">
+      <input
+        type="text"
+        id="word-input"
+        placeholder="Word..."
+        required
+      >
+      <button type="submit">Search</button>
+    </form>
+
+    <section id="results">
+      <h2 id="word"></h2>
+      <p id="phonetic"></p>
+
+      <div id="definitions"></div>
+
+      <div id="synonyms"></div>
+
+      <p id="error-message"></p>
+    </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
